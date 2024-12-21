@@ -9,8 +9,22 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".expo/types/**/*.js",
+    "expo-env.d.js",
+    "app/modal.jsx",
+    "app/+not-found.jsx",
+    "app/+html.jsx",
+    "app/_layout.jsx",
+    "components/useColorScheme.web.js",
+    "components/useColorScheme.js",
+    "components/useClientOnlyValue.web.js",
+    "components/useClientOnlyValue.tjs",
+    "components/Themed.jsx",
+    "components/StyledText.jsx",
+    "components/ExternalLink.jsx",
+    "components/EditScreenInfo.jsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]
